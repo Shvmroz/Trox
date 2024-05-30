@@ -1,0 +1,30 @@
+/*==== Banner =====================================================================*/
+
+.img-container {
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%; 
+  }
+  
+  .img-zoom {
+    transition: transform 0.5s ease;
+  }
+  
+  .img-zoom:hover {
+    transform: scale(1.1);
+  }
+  
+  @media (max-width: 992px) {
+  
+    .text-box h1 {
+      font-size: 25px;
+      font-weight: bold;
+    }
+    .text-box p {
+      font-size: 13px;
+    }
+  
+  }
+  

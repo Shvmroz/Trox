@@ -1,0 +1,53 @@
+
+
+
+.troxpi-subheading {
+    margin: 20px 0;
+}
+
+.troxpi-box {
+    margin-top: 20px;
+}
+
+.troxpi-box h3 {
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 10px;
+
+}
+
+.troxpi-glimpse {
+    margin-top:20px;
+    text-align: center;
+}
+
+.troxpi-arrow:hover,
+.troxpi-heading:hover{
+    color: #7675F7;
+}
+
+@media (max-width: 992px) {
+    .troxpi-heading {
+        font-size: 25px;
+    }
+
+    .troxpi-subheading,
+    .troxpi-box p {
+        font-size: 13px;
+    }
+    .troxpi-glimpse p{
+        font-size: 14px;
+    }
+
+    .troxpi-box h3 {
+        font-size: 20px;
+    }
+}
+@media (max-width: 768px){
+    .troxpi-subheading {
+        margin: 10px 0;
+    }
+    .troxpi-subheading, .troxpi-box p {
+       margin-bottom: 0px;
+    }
+}

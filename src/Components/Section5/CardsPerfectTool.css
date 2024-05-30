@@ -1,0 +1,47 @@
+.heading{
+    font-size: 36px;
+}
+.custom-card {
+    height: 100%;
+}
+.custom-card-body{
+    padding: 20px 10px 0px 10px;
+}
+.custom-card-title{
+    font-weight: 600;
+}
+
+.custom-card .custom-card-icon {
+ height: 100px;
+ width: 100px;
+}
+
+@media (max-width: 992px) {
+  .heading{
+    font-size: 2rem;
+  }
+    .custom-card-title{
+      font-size: 20px;
+      font-weight: 600;
+    }
+    .custom-card-text{
+      font-size: 16px;
+    }
+  }
+
+  @media (max-width: 767px) {
+    .heading{
+      text-align: center;
+    }
+    .custom-card {
+        text-align: center;
+    }
+    .custom-card-icon {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .custom-card-title, .custom-card-text {
+        text-align: center;
+    }
+}

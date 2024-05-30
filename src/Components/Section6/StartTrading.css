@@ -1,0 +1,76 @@
+.white-btn {
+    background-color: #ffffff !important;
+    padding: 10px 25px !important;
+    border-radius: 10px !important;
+    color: #7675F7 !important;
+    text-transform: none !important;
+    font-weight: 600 !important;
+    font-size: 18px !important;
+}
+
+/* Design Css=================================== */
+
+.trading-box {
+    border-radius: 20px;
+    background-color: #7675F7;
+    color: white !important;
+    padding: 35px 30px;
+    margin-bottom: 40px;
+}
+
+.trading-heading {
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 38px;
+    margin-bottom: 15px;
+}
+
+.trading-text {
+    margin: 0;
+    color: white !important;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+@media (max-width: 901px) {
+    .white-btn {
+        font-size: 16px !important;
+    }
+
+    .trading-heading {
+        font-size: 29px;
+    }
+
+    .trading-text {
+        font-size: 15px;
+    }
+
+}
+
+@media (max-width: 768px) {
+    .white-btn {
+        font-size: 12px !important;
+    }
+
+    .trading-heading {
+        /* font-size: 29px; */
+    }
+
+    .trading-text {
+        font-size: 14px;
+        margin-bottom: 15px;
+    }
+
+    .trading-box {
+        padding: 18px 20px;
+    }
+
+}
+
+@media (max-width: 400px) {
+
+    .trading-heading {
+        font-size: 25px;
+    }
+
+}

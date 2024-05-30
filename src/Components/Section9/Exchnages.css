@@ -1,0 +1,23 @@
+
+@media (max-width: 970px) {
+    .exchnage-heading{
+        font-size: 28px;
+        font-weight: 700;
+    }
+  }
+
+  
+@media (max-width: 678px) {
+    .exchnage-heading{
+        font-size: 25px;
+        font-weight: 600;
+    }
+  }
+  @media (max-width: 550px) {
+    .exchnage-heading{
+        font-size: 20px;
+        font-weight: 600;
+       
+        line-height: 30px;
+    }
+  }
